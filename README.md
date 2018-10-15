@@ -6,7 +6,7 @@ To Launch Turtlebot Navigation on the generated world with Keyboard:
 To Launch Turtlebot Simple Navigation, move and avoid obstacle:
 > roslaunch turtlebot_navigation autonomous_navigation.launch
 
-Going to specific in relation to the Turtlebot
+Going to specific position in relation to the Turtlebot
 > rosrun turtlebot_navigation navigation_simple _X:=1.0 _Y:=1.0 
 
 
