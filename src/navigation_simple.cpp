@@ -19,8 +19,8 @@ int main(int argc, char** argv){
     ROS_INFO("Waiting for the move_base action server to come up");
   }
 
-  double X;
-  double Y;
+  double X = 1.0;
+  double Y = 1.0;
 
   ros::NodeHandle private_node_handle_("~");
   private_node_handle_.param("X", X, double(4));
